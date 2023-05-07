@@ -1,0 +1,8 @@
+Compile with: make
+Execute with: java assign5 -alg [FIFO|SJF|PR|RR] [-quantum [integer(ms)]] -input [file name]
+or
+Execute with: prog -alg [FCFS|SPN|PRI|RR] [-quantum [integer(ms)]] -input [file name]
+FIFO: java Assign5 -alg FIFO -input input.txt
+PR: java Assign5 -alg PR -input input.txt
+SJF: java Assign5 -alg SJF -input input.txt
+RR: java Assign5 -alg RR -quantum 60 -input input.txt
